@@ -2,6 +2,34 @@
 Generic Queue using ArrayList
 
 Implement a Generic Queue using ArrayList
+
+Input
+30 40 50 60 80 90
+100
+America Africa India Italy Srilanka Pakistan
+Japan
+25.8 36.5 69.2 36.45 36.21 36.21
+36.25
+
+Expected output
+Queue is: 30 40 50 60 80 90
+Queue insert done
+Queue is: 30 40 50 60 80 90 100
+Queue is deleted: 30
+Queue is deleted: 40
+Queue is: 50 60 80 90 100
+Queue is: America Africa India Italy Srilanka Pakistan
+Queue insert done
+Queue is: America Africa India Italy Srilanka Pakistan Japan
+Queue is deleted: America
+Queue is deleted: Africa
+Queue is: India Italy Srilanka Pakistan Japan
+Queue is: 25.8 36.5 69.2 36.45 36.21 36.21
+Queue insert done
+Queue is: 25.8 36.5 69.2 36.45 36.21 36.21 36.25
+Queue is deleted: 25.8
+Queue is deleted: 36.5
+Queue is: 69.2 36.45 36.21 36.21 36.25
 ********************************************************************************/
 
 import java.util.*;
